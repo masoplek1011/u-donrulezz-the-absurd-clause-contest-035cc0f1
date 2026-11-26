@@ -6,7 +6,7 @@
 
 A single absurd clause buried deep inside a terms-of-service agreement: deadpan legal boilerplate that quietly turns absurd.
 
-> The Company shall not be liable for delays caused by acts of God, war, strikes, or any weather the Company personally scheduled.
+> The Company shall not be liable for delays caused by acts of God, war, strikes, or weather it personally scheduled and then forgot to cancel.
 
 ## Run
 
@@ -14,4 +14,4 @@ A single absurd clause buried deep inside a terms-of-service agreement: deadpan 
 MAKEFUN_OUTPUT_DIR=/tmp/absurd-clause-out node main.ts
 ```
 
-This writes the clause (one line, 128 characters, no trailing newline) to `$MAKEFUN_OUTPUT_DIR/entry.txt`.
+This writes the clause (one line, 141 characters, no trailing newline) to `$MAKEFUN_OUTPUT_DIR/entry.txt`.

@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const clause =
-  "The Company shall not be liable for delays caused by acts of God, war, strikes, or any weather the Company personally scheduled.";
+  "The Company shall not be liable for delays caused by acts of God, war, strikes, or weather it personally scheduled and then forgot to cancel.";
 
 if (
   clause.length === 0 ||
